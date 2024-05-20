@@ -1,0 +1,1 @@
+# 664ad4c12a5bcba8414a1b4d-qr-code-api
