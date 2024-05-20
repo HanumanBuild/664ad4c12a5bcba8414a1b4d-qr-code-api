@@ -6,7 +6,7 @@ router.get('/generate-qr', async (req, res, next) => {
   const { text } = req.query;
 
   if (!text) {
-    return res.status(400).send('Query parameter "text" is required');
+    return res.status(400).json({ error: 'Query parameter "text" is required' });
   }
 
   try {
